@@ -1,0 +1,28 @@
+้head {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+h1 {
+text-align: center;
+font-size: 30px;
+}
+
+
+h2 {
+text-align: center; font-size: 40px;
+    }
+
+p {
+text-indent: 60px;
+  }
+
+ul
+{
+font-size: 18px;
+}
+
+li {
+font-size: 18px;
+}
