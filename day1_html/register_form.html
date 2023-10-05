@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="register-form">
+        <h1>Register Form</h1>
+    </div>
+        <div class="form-container">
+        <form action="/action_page.php" method="get">
+
+        <div class="form-group">    
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last name:</label> 
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="confirmpassword">Confirm Password:</label>
+        <input type="password" id="confirmpassword" name="confirmpassword"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="confirmemail">Confirm Email:</label>
+        <input type="email" id="confirmemail" name="confirmemail"><br><br>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+    <label for="day">Day:</label>
+    <input type="number" id="day" name="day" min="1" max="31">
+
+    <label for="month">Month:</label>
+    <input type="number" id="month" name="month" min="1" max="12">
+
+    <label for="year">Year:</label>
+    <input type="number" id="year" name="year" min="1980" max="2005"><br><br>
+
+
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="myChoice" value = 1 checked> Male
+        <input type="radio" name="myChoice" value = 2> Female <br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"><br><br>
+      </form>
+    </div>
+</div>
+</body>
+</html>

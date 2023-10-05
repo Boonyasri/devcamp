@@ -1,21 +1,24 @@
 ้head {
   display: block;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: #214ac4;
 }
 
-h1 {
-text-align: center;
-font-size: 30px;
+.centered-list li {
+  text-align: center; 
+  font-size: 20px;
+  display: inline;
+  padding: 8px;
+  margin-right: 10px;
 }
 
-
-h2 {
-text-align: center; font-size: 40px;
-    }
+.center-text {
+  text-align: center;
+  font-size: 30px;
+}
 
 p {
-text-indent: 60px;
+text-indent: 40px;
   }
 
 ul
@@ -25,4 +28,142 @@ font-size: 18px;
 
 li {
 font-size: 18px;
+}
+
+.register-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    padding: 20px 40px;
+    border: 1px solid black;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+label {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px;
+    margin: 10px 10px;
+    justify-items: center;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-row {
+  flex: 5 5 calc(50% - 20px); 
+  margin-top: 20%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.image {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 20px; 
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20%;
+  padding: 30px;
+}
+
+.container-search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box-search {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  border: 2px solid red;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.text-search {
+  display: inline;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+input[type="button"] {
+  position: relative;
+}  
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 10px;
+  background-color: white;
+  background-image: "searchicon.jpg";
+  background-position: 2px 2px; 
+  background-repeat: no-repeat;
+  padding: 5px 5px 10px 20px;
+}
+
+
+
+.container-box {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.text {
+  display: inline;
+  padding: 10px;
 }
